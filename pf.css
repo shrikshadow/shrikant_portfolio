@@ -25,6 +25,7 @@ body {
     justify-content:space-between;
    
   }
+  
   .a{
     padding-right:20px;
     font-size: 1.5rem;
@@ -53,6 +54,8 @@ a{
     color: antiquewhite;
     text-size-adjust:2rem;
     font-weight: bold;
+    background-color: rgba(169, 169, 169, 0.027);
+    box-shadow:black 0px 4px;
 }
 #profile{
     height: 700px;
@@ -66,7 +69,7 @@ a{
 }
 .icon:hover{
     cursor:pointer;
-    background-color: coral;
+    background-color:aliceblue;
     border-radius:7px;
     width: 2rem;
 }
@@ -100,6 +103,10 @@ button:hover{
     background-color:coral;
     border-radius:10px;
 
+}
+.btn-color-2:hover{
+   
+    font-weight: bold;
 }
 .title{
     color:coral;
